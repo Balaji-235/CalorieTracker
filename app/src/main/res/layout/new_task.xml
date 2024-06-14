@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Food Name:"
+        android:textSize="20dp"
+        android:layout_margin="12dp"></EditText>
+
+    <EditText
+        android:id="@+id/cal"
+        android:layout_below="@id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount of Calories:"
+        android:textSize="20dp"
+        android:layout_margin="12dp"></EditText>
+    <EditText
+        android:id="@+id/fat"
+        android:layout_below="@+id/cal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount of Fats:"
+        android:textSize="20dp"
+        android:layout_margin="12dp"></EditText>
+    <EditText
+        android:id="@+id/pro"
+        android:layout_below="@+id/fat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount of Protiens:"
+        android:textSize="20dp"
+        android:layout_margin="12dp"></EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pro"
+        android:layout_centerInParent="true"
+        android:text="Add"
+        android:backgroundTint="@color/moon"/>
+
+</RelativeLayout>
